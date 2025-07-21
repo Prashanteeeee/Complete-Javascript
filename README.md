@@ -58,5 +58,4 @@ This repository is a live document of my learning. You will find practice code f
 ## Connect with Me
 
 * **LinkedIn:** https://www.linkedin.com/in/prashant-rathour/
-* **Twitter:** [@YourTwitterHandle]
 * **GitHub:** [Prashanteeeeee](https://github.com/Prashanteeeee/Prashanteeeee)
