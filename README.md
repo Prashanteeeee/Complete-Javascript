@@ -59,4 +59,4 @@ This repository is a live document of my learning. You will find practice code f
 
 * **LinkedIn:** https://www.linkedin.com/in/prashant-rathour/
 * **Twitter:** [@YourTwitterHandle]
-* **GitHub:** [Prashanteeeeee](https://github.com/Prashanteeeeee)
+* **GitHub:** [Prashanteeeeee](https://github.com/Prashanteeeee/Prashanteeeee)
