@@ -1,6 +1,6 @@
-/*
 
-const name = "Prashant Rathour"
+
+const name1 = "Prashant Rathour"
 let num = 345
 var city = "Bangalore"
 
@@ -9,22 +9,22 @@ var city = "Bangalore"
 
 // don't use var because of variabe scope method
 
-console.log(name, num, city);
-console.log(typeof name, typeof num, typeof city);
-console.table(name + " " + num + " " + city);
-console.log(`My name is ${name} and I live in ${city}.`);
+console.log(name1, num, city);
+console.log(typeof name1, typeof num, typeof city);
+console.table(name1 + " " + num + " " + city);
+console.log(`My name is ${name1} and I live in ${city}.`);
 
 
 // const is used for constants, which cannot be reassigned
 
 
-*/
+
 
 
 
 // Datatypes in JavaScript
 
-/*
+
 let number = 1234
 let assign  = "arkay"
 let isstudent = false;
@@ -34,26 +34,26 @@ let bigNumber = BigInt(1234567890123456789012345678901234567890);
 let symbol = Symbol("unique");
 
 
-null => object
-undefined=> undefined
+// null => object
+// undefined=> undefined
 
-*/
+
 
 
 
 // functions
-/*
-let num1 =67;
+
+let nums1 =67;
 let num2 = 89;
 
 const name = "Prashant Rathour";
 
  function addtwonumbers(num1, num2)
 {
-    return num1 + num2;
+    return nums1 + num2;
 }
 
-console.log(addtwonumbers(num1, num2)); 
+console.log(addtwonumbers(nums1, num2)); 
 
 function greet(name) {
     return `Welcome, ${name}!
@@ -78,7 +78,7 @@ function factorial(n)
 
 console.log(factorial(5)); // Output: 120
 
-*/
+
 
 
 
@@ -87,10 +87,10 @@ console.log(factorial(5)); // Output: 120
 // conversions
 
 
-/*
-let number = 56
-let bool = Boolean(number)
-let str = String(number)
+
+let number1 = 56
+let bool = Boolean(number1)
+let str = String(number1)
 console.log(str);
 console.log(typeof str);
 
@@ -114,4 +114,4 @@ let bool1 = Boolean(isloggedin)
 console.log(bool1);
 console.log(typeof bool1);
 
-*/
+
