@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Learning Chai Aur Javascript</h1>
+    <button id="start">Start Time</button>
+    <button id="stop">Stop Time</button>
+
+</body>
+<script>
+// --- SCRIPT ---
+
+// 1. Declare the interval ID in a higher scope so all functions can access it.
+// We'll start it as null to indicate that the clock is not running yet.
+let intervalId = null;
+
+const startButton = document.querySelector('#start');
+const stopButton = document.querySelector('#stop');
+const clockDisplay = document.querySelector('h1'); // Let's display the time in the h1 tag
+
+// 2. Create separate, named functions for each action.
+const startClock = function() {
+    // A pro move: check if an interval is already running before starting a new one.
+    if (!intervalId) {
+        intervalId = setInterval(() => {
+            const date = new Date();
+            clockDisplay.innerHTML = date.toLocaleTimeString();
+        }, 1000);
+    }
+};
+
+const stopClock = function() {
+    clearInterval(intervalId);
+    // Set the ID back to null so our 'if' check works next time.
+    intervalId = null;
+    console.log("STOPPED");
+    clockDisplay.innerHTML = 'Learning Chai Aur Javascript'; // Reset the text
+};
+
+
+// 3. Keep your event listeners separate and at the top level.
+startButton.addEventListener('click', startClock);
+stopButton.addEventListener('click', stopClock);
+
+</script>
+
+</html>
