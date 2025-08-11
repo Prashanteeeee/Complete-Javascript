@@ -26,7 +26,7 @@ console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 
 // 4. Change property descriptor to make 'name' non-enumerable
 Object.defineProperty(chai, "name", {
-    // writable: false, // Uncomment to make it read-only
+    writable: false, // Uncomment to make it read-only
     enumerable: false
 });
 

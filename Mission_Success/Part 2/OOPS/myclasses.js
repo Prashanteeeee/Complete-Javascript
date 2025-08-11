@@ -1,27 +1,27 @@
-// // ES6
+// ES6
 
-// class User{
-//     constructor(username , email , password)
-//     {
-//         this.username = username ;
-//         this.email = email;
-//         this.password = password;
-//     }
+class User{
+    constructor(username , email , password)
+    {
+        this.username = username ;
+        this.email = email;
+        this.password = password;
+    }
 
-//     encryptpassword()
-//     {
-//         return `${this.password}abc`
-//     }
+    encryptpassword()
+    {
+        return `${this.password}abc`
+    }
 
-//     changeusername()
-//     {
-//         return `${this.username.toUpperCase()}`
-//     }
-// }
+    changeusername()
+    {
+        return `${this.username.toUpperCase()}`
+    }
+}
 
-// const newuser = new User("chai" , "chai@google.com" , 12345);
-// console.log(newuser.encryptpassword());
-// console.log(newuser.changeusername());
+const newuser = new User("chai" , "chai@google.com" , 12345);
+console.log(newuser.encryptpassword());
+console.log(newuser.changeusername());
 
 
 
